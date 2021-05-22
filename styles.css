@@ -1,0 +1,50 @@
+.box {
+   
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 
+    "fish1 short1"
+    "map1 short1"
+    "tall1  bamboo1"
+    "tall1  bamboo1"
+    "tall1 quadropus1";
+    border: solid green;
+   
+   
+    
+}
+
+
+
+.bamboo {
+    grid-area: bamboo1;
+    padding-left: 15px;
+}
+
+.fish {
+    grid-area: fish1;
+    padding-top: 20px;
+
+}
+
+.map {
+    grid-area: map1;
+
+}
+
+.quadropus {
+    grid-area: quadropus1;
+    padding-left: 16px;
+}
+
+.vase-short {
+    grid-area: short1;
+    padding-left: 200px;
+    padding-top: 22px;
+    
+}
+
+.vase-tall {
+    grid-area: tall1;
+}
